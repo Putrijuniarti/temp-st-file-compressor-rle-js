@@ -4,7 +4,7 @@
   "description": "Provide text file, it will compress into smaller",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "file",
@@ -16,5 +16,9 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"
-  }
-}
+  },
+  "jest": {
+    "testMatch": [
+      "**/*.jest.js"
+    ]
+  }}
